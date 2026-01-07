@@ -5,7 +5,7 @@ set -e -x
 # Kernel Source
 KERNEL_SOURCE="https://github.com/bojantanasic/android_kernel_oneplus_sm8250.git"
 KERNEL_BRANCH="16.0"
-KERNEL_DEFCONFIG="vendor/atoll-perf_defconfig"
+KERNEL_DEFCONFIG="arch/arm64/configs/vendor/kona-perf_defconfig"
 
 # Prebuilt Clang Toolchain (AOSP)
 CLANG_URL="https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master-kernel-build-2021/clang-r416183b.tar.gz"
